@@ -25,17 +25,55 @@ import play.core.j.PlayFormsMagicForJava._
 object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template0[play.twirl.api.HtmlFormat.Appendable] {
 
   /**/
-  def apply/*1.2*/():play.twirl.api.HtmlFormat.Appendable = {
+  def apply():play.twirl.api.HtmlFormat.Appendable = {
     _display_ {
       {
 
 
-Seq[Any](format.raw/*1.4*/("""
+Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
+<html>
 
-"""),_display_(/*3.2*/main("Welcome to Play")/*3.25*/ {_display_(Seq[Any](format.raw/*3.27*/("""
-  """),format.raw/*4.3*/("""<h1>Welcome to Play!</h1>
-""")))}),format.raw/*5.2*/("""
-"""))
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+</head>
+
+<body>
+  <!-- start of nav section -->
+  <nav class="navbar navbar-inverse">
+    <!-- nav header/ branding -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">Lab 2</a>
+    </div>
+    <!-- List containing nav links -->
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/">Home</a></li>
+      <li><a href="/about">About Us</a></li>
+      <li><a href="/products">Products</a></li>
+    </ul>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3">
+        <h4 class="well">
+            Menu
+        </h4>
+      </div>
+      <div class="col-sm-9">
+        <h4 class="well">
+          Welcome to the Home Page
+        </h4>
+      </div>
+  </div>
+    <footer class="container-fluid text-center">
+      <p>Copyright 2017</p>
+    </footer>
+    
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+</html>"""))
       }
     }
   }
@@ -51,11 +89,11 @@ Seq[Any](format.raw/*1.4*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Thu Oct 19 13:35:53 IST 2017
-                  SOURCE: /home/wdd/webapps/helloworld/app/views/index.scala.html
-                  HASH: 101fa511ddebe89cb9bf324b96e228b7b59b8d04
-                  MATRIX: 941->1|1037->3|1065->6|1096->29|1135->31|1164->34|1220->61
-                  LINES: 28->1|33->1|35->3|35->3|35->3|36->4|37->5
+                  DATE: Fri Oct 20 15:53:51 IST 2017
+                  SOURCE: /home/wdd/webapps/views_and_dynamic/app/views/index.scala.html
+                  HASH: c113e95d664cc0f5203a34d605d2ecfc917a77ec
+                  MATRIX: 1030->0
+                  LINES: 33->1
                   -- GENERATED --
               */
           
