@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/wdd/webapps/helloworld/conf/application.conf,/home/wdd/webapps/helloworld/target/scala-2.12/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/wdd/webapps/helloworld/conf/logback.xml,/home/wdd/webapps/helloworld/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/wdd/webapps/helloworld/conf/routes,/home/wdd/webapps/helloworld/target/scala-2.12/classes/routes)[0m
